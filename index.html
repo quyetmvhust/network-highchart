@@ -116,7 +116,7 @@ Highcharts.chart('container', {
                     if (el.from === "Proto Indo-European") {
                         ref = `
                             <div class="logo" >
-                                <div class='tooltip'>Chính phủ</div>
+                                <div class='tooltip'>Thông tin node</div>
                                 <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/a/a3/Emblem_of_North_Vietnam.svg/222px-Emblem_of_North_Vietnam.svg.png"/>    
                                 <div class="root">Chính phủ</div>
                             </div>
@@ -261,7 +261,9 @@ Highcharts.chart('container', {
         ]
     }]
 });
-
+$('.logo').click(function(){
+    alert('Show tab infor node!!!!');
+});
 </script>
 <style>
     .logo{
